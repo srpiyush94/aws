@@ -12,7 +12,7 @@ public class RestController {
 	@GetMapping("/v1")
 	public String testAPI()
 	{
-		return "<h2>Welcome to AWS Deployement using Code pipeline!!</h2>";
+		return "index";
 	}
 
 }
